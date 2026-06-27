@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="coin-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="coin-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C3B1FF"/>
+      <stop offset="100%" stop-color="#8B6FD4"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#coin-bg)"/>
+  <!-- Platform elements -->
+  <rect x="80" y="380" width="180" height="16" rx="4" fill="#333333"/>
+  <rect x="340" y="320" width="180" height="16" rx="4" fill="#333333"/>
+  <rect x="180" y="260" width="140" height="16" rx="4" fill="#333333"/>
+  <!-- Ground -->
+  <rect x="0" y="440" width="600" height="8" fill="#2A2A2A"/>
+  <!-- Coin icon - large decorative -->
+  <circle cx="300" cy="200" r="60" fill="none" stroke="url(#coin-grad)" stroke-width="4"/>
+  <circle cx="300" cy="200" r="48" fill="none" stroke="#C3B1FF" stroke-width="2" opacity="0.5"/>
+  <text x="300" y="215" font-family="sans-serif" font-size="36" font-weight="bold" fill="#C3B1FF" text-anchor="middle">$</text>
+  <!-- Small floating coins -->
+  <circle cx="150" cy="160" r="14" fill="none" stroke="#C3B1FF" stroke-width="2" opacity="0.4"/>
+  <text x="150" y="166" font-family="sans-serif" font-size="14" fill="#C3B1FF" text-anchor="middle" opacity="0.4">$</text>
+  <circle cx="450" cy="180" r="14" fill="none" stroke="#C3B1FF" stroke-width="2" opacity="0.4"/>
+  <text x="450" y="186" font-family="sans-serif" font-size="14" fill="#C3B1FF" text-anchor="middle" opacity="0.4">$</text>
+  <circle cx="480" cy="280" r="10" fill="none" stroke="#C3B1FF" stroke-width="2" opacity="0.3"/>
+  <text x="480" y="285" font-family="sans-serif" font-size="10" fill="#C3B1FF" text-anchor="middle" opacity="0.3">$</text>
+  <!-- Simple character silhouette -->
+  <rect x="130" y="350" width="20" height="30" rx="4" fill="#C3B1FF" opacity="0.7"/>
+  <circle cx="140" cy="342" r="10" fill="#C3B1FF" opacity="0.7"/>
+  <!-- Game controller icon -->
+  <g transform="translate(240, 400)" fill="#333333" opacity="0.6">
+    <rect x="0" y="10" width="120" height="50" rx="25" fill="#2A2A2A" stroke="#444444" stroke-width="1.5"/>
+    <!-- D-pad -->
+    <rect x="22" y="26" width="20" height="6" rx="2" fill="#444444"/>
+    <rect x="29" y="19" width="6" height="20" rx="2" fill="#444444"/>
+    <!-- Buttons -->
+    <circle cx="88" cy="28" r="5" fill="#C3B1FF" opacity="0.5"/>
+    <circle cx="100" cy="36" r="5" fill="#444444"/>
+    <circle cx="76" cy="36" r="5" fill="#444444"/>
+  </g>
+  <!-- Project name -->
+  <text x="300" y="530" font-family="sans-serif" font-size="28" font-weight="bold" fill="#C3B1FF" text-anchor="middle">CoinStrike</text>
+  <text x="300" y="555" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle">2D Side-Scrolling Platformer</text>
+</svg>

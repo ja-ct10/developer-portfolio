@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1155" height="645" viewBox="0 0 1155 645">
+  <defs>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E0031"/>
+      <stop offset="50%" stop-color="#2A1040"/>
+      <stop offset="100%" stop-color="#1E0031"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1155" height="645" rx="16" ry="16" fill="url(#about-bg)"/>
+  <!-- Dot pattern -->
+  <g fill="#C3B1FF" opacity="0.08">
+    <circle cx="80" cy="80" r="3"/><circle cx="140" cy="80" r="3"/><circle cx="200" cy="80" r="3"/><circle cx="260" cy="80" r="3"/><circle cx="320" cy="80" r="3"/>
+    <circle cx="80" cy="140" r="3"/><circle cx="140" cy="140" r="3"/><circle cx="200" cy="140" r="3"/><circle cx="260" cy="140" r="3"/><circle cx="320" cy="140" r="3"/>
+    <circle cx="80" cy="200" r="3"/><circle cx="140" cy="200" r="3"/><circle cx="200" cy="200" r="3"/><circle cx="260" cy="200" r="3"/><circle cx="320" cy="200" r="3"/>
+    <circle cx="80" cy="260" r="3"/><circle cx="140" cy="260" r="3"/><circle cx="200" cy="260" r="3"/><circle cx="260" cy="260" r="3"/><circle cx="320" cy="260" r="3"/>
+    <circle cx="835" cy="385" r="3"/><circle cx="895" cy="385" r="3"/><circle cx="955" cy="385" r="3"/><circle cx="1015" cy="385" r="3"/><circle cx="1075" cy="385" r="3"/>
+    <circle cx="835" cy="445" r="3"/><circle cx="895" cy="445" r="3"/><circle cx="955" cy="445" r="3"/><circle cx="1015" cy="445" r="3"/><circle cx="1075" cy="445" r="3"/>
+    <circle cx="835" cy="505" r="3"/><circle cx="895" cy="505" r="3"/><circle cx="955" cy="505" r="3"/><circle cx="1015" cy="505" r="3"/><circle cx="1075" cy="505" r="3"/>
+    <circle cx="835" cy="565" r="3"/><circle cx="895" cy="565" r="3"/><circle cx="955" cy="565" r="3"/><circle cx="1015" cy="565" r="3"/><circle cx="1075" cy="565" r="3"/>
+  </g>
+  <!-- Code brackets decoration -->
+  <g fill="none" stroke="#C3B1FF" stroke-width="3" opacity="0.12">
+    <path d="M420 200 L380 322 L420 445"/>
+    <path d="M735 200 L775 322 L735 445"/>
+    <line x1="520" y1="180" x2="635" y2="460"/>
+  </g>
+  <!-- Abstract geometric shapes -->
+  <rect x="500" y="250" width="155" height="145" rx="8" fill="none" stroke="#C3B1FF" stroke-width="2" opacity="0.1"/>
+  <rect x="530" y="280" width="95" height="85" rx="4" fill="#C3B1FF" opacity="0.05"/>
+  <!-- About text -->
+  <text x="577" y="340" font-family="sans-serif" font-size="18" fill="#C3B1FF" text-anchor="middle" opacity="0.4">About</text>
+  <!-- Subtle bottom label -->
+  <text x="577" y="620" font-family="sans-serif" font-size="12" fill="#C3B1FF" text-anchor="middle" opacity="0.3">About Section Placeholder</text>
+</svg>
